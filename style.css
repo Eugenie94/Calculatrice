@@ -1,0 +1,25 @@
+#lienouvrir, #lienfermer {
+    display: inline;
+    color: rgb(255, 55, 165);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 3vh;
+}
+
+.liens {
+    text-align: center;
+}
+
+
+
+.chaine, .opvalide {
+    /* FAUT PAS QUE JE LE METTE CAR DANS MON JS JE VAIS METTRE EN DISPLAY BLOCK DE TOUTE FACON display: block; /* faire en sorte que mes element aligné passe en dessous de mes autres element check test calculette */
+    margin-top: 7vh;
+    display: none;
+    color: red;
+}
+
+.opvalide {
+    margin-top: 2vh;
+}
