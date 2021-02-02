@@ -101,11 +101,11 @@ $('.survol, .operateur').mouseover(function() {     //evenement mouseover qui va
 });
 
 $('#lienfermer').on('click', function () {    // fermer form calculette
-    $('#form').fadeToggle(1000);   
+    $('#form').fadeOut(1000);   
 });
 
 $('#lienouvrir').on('click', function () { // ouvrir form calculette
-    $('#form').fadeToggle(1000);
+    $('#form').fadeIn(1000);
     $("#form").css( { display: 'block'} ) ;
 });
 
